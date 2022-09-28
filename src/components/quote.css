@@ -1,5 +1,5 @@
 
-.div{
+.div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,4 +7,3 @@
   font-size: 40px;
   margin-top: 100px;
 }
-
