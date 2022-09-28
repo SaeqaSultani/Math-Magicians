@@ -1,0 +1,15 @@
+.div-container{
+    display: flex;
+  flex-direction: column;
+  margin: 50px 50px;
+}
+
+h2{
+    font-size: 50px;
+    margin: 10px 10px;
+}
+
+.text{
+    font-size: 20px;
+    margin: 20px 20px;
+}
