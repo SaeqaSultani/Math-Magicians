@@ -21,7 +21,7 @@ const Calculator = () => {
     <div className="div-container">
       <p className="text-p">Lets do some math!</p>
       <div className="calculat">
-        <div className="input">
+        <div className="input" data-testid="display">
           {total}
           {operation}
           {next}
@@ -30,7 +30,7 @@ const Calculator = () => {
           <button className="button" type="submit" onClick={handleEvent}>AC</button>
           <button className="button" type="submit" onClick={handleEvent}>+/-</button>
           <button className="button" type="submit" onClick={handleEvent}>%</button>
-          <button className="button-color" type="submit" onClick={handleEvent}>+</button>
+          <button className="button-color" type="submit" onClick={handleEvent} data-testid="+">+</button>
           <button className="button" type="submit" onClick={handleEvent}>7</button>
           <button className="button" type="submit" onClick={handleEvent}>8</button>
           <button className="button" type="submit" onClick={handleEvent}>9</button>
