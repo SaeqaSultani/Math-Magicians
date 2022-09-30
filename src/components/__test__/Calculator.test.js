@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Calculator from '../Calculator';
+import Calculator from '../calculator';
 
 it('Check for any changes to the component', () => {
   const tree = renderer.create(

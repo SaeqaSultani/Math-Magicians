@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Home from '../Home';
+import Home from '../home';
 
 it('Check for any changes to the component', () => {
   const tree = renderer.create(

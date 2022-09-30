@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Quote from '../Quote';
+import Quote from '../quote';
 
 it('Check any changes to the component', () => {
   const tree = renderer.create(
