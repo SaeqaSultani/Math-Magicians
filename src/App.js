@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <Navbar data-testid="navbar" />
         <Routes>
           <Route path="/quote" element={<Quote />} />
           <Route path="/calculator" element={<Calculator />} />

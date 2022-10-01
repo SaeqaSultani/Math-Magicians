@@ -20,6 +20,12 @@
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
+  "settings": {
+    "import/extensions": [
+      ".js",
+      ".jsx"
+    ]
+  },
   "ignorePatterns": [
     "dist/",
     "build/"
