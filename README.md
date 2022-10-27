@@ -3,6 +3,8 @@
 this is a Math-Magicians project this is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 Make simple calculations,Read a random math-related quote.
 
+![math magicians](https://user-images.githubusercontent.com/74806645/198382691-d05d2e8e-2481-4847-9973-9266089688cd.png)
+
 # Live Demo
 
 [Live Demo Link](https://react-mathmagician-app.netlify.app/)
